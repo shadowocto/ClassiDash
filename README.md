@@ -1,7 +1,10 @@
 # ▣ ClassiDash
 ### 2.1 Geometry Dash Private Server
 
-🌐 Website: [classidash.fun](https://classidash.fun)
+> [!NOTE]
+> This repository is in the process of being moved, check out the [ClassiDash Organization](https://github.com/ClassiDash) for updates.
+
+🌐 Website: [classidash.com](https://classidash.com)
 
 ### Downloads:
 
