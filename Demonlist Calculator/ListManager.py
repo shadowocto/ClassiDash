@@ -252,8 +252,12 @@ file = '.\\data\\list.json'
 os.system(f"title List Manager {version} - Enterprise Edition")
 os.system(f"echo. >> {file}")
 
+# cloudflare killed pastebin auth
+auth = True
+
 print("Authenticating...")
-mods = requests.get("https://classidash.fun/demonlist/adminKeys").text.splitlines()
+mods = requests.get("https://classidash.com/demonlist/adminKeys").text.splitlines()
+
 for x in mods:
     try:
         decodedKey = str(base64.b64decode(x.split(":")[0] + "="))[1:].strip("'")
